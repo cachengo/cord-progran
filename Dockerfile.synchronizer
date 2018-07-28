@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# xosproject/progran-synchronizer
+# cachengo/progran-synchronizer
 
-FROM xosproject/xos-synchronizer-base:2.0.0
+FROM cachengo/xos-synchronizer-base:2.0.0
 
 COPY xos/synchronizer /opt/xos/synchronizers/progran
 COPY VERSION /opt/xos/synchronizers/progran/
